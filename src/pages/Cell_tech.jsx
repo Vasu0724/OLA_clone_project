@@ -4,6 +4,7 @@ import Battery_innovation from './cell_tech/Battery_innovation'
 import R_D_Facility from './cell_tech/R_D_Facility'
 import Cell_Gigafactory from './cell_tech/Cell_Gigafactory'
 import Skilled_talent from './cell_tech/Skilled_talent'
+import Navbar_ola_end from './navbar_ola/Navbar_ola_end'
 
 function Cell_tech() {
   return (
@@ -14,6 +15,7 @@ function Cell_tech() {
       <R_D_Facility/>
       <Cell_Gigafactory/>
       <Skilled_talent/>
+      <Navbar_ola_end/>
     </div>
     </>
   )
