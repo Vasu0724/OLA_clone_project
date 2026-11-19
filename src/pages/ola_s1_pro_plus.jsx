@@ -14,7 +14,7 @@ function Ola_s1_pro_plus() {
         <S1_pro_performance_plus />
         <S1_design_plus/>
         <S1_technology_plus/>
-        <Navbar_ola_end/>
+        <Navbar_ola_end />
     </div>
   )
 }

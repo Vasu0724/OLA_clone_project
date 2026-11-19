@@ -15,7 +15,7 @@ function Cell_tech() {
       <R_D_Facility/>
       <Cell_Gigafactory/>
       <Skilled_talent/>
-      <Navbar_ola_end/>
+      <Navbar_ola_end />
     </div>
     </>
   )
