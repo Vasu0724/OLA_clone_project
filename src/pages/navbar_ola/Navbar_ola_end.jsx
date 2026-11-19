@@ -77,22 +77,21 @@ function Navbar_ola_end() {
 
           <Link to="/s1-pro-plus">Ola S1 Pro+</Link>
           <Link to="/s1-pro">Ola S1 Pro</Link>
-          <Link to="/s1-pro">Ola S1 X</Link>
+          <Link to="/s1-x">Ola S1 X</Link>
         </div>
 
         <div className="navbar_end_technology">
           <h2>Technology & Design</h2>
 
           <Link to="/cell-technology">Cell Technology</Link>
-          <Link to="/cell-technology">Manufacturing</Link>
-          <Link to="/s1-pro#design">Design</Link>
+          <Link to="/cell-manufacturing">Manufacturing</Link>
         </div>
 
         <div className="navbar_end_company">
           <h2>Explore</h2>
 
           <Link to="/">Home</Link>
-          <Link to="/s1-pro">S1 Pro</Link>
+          <Link to="/sign-in">Sign In</Link>
           <Link to="/s1-pro-plus">S1 Pro+</Link>
         </div>
 
