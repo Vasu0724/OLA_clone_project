@@ -11,10 +11,6 @@ function Cell() {
       <img className="cell_bg_img"
         src={cell} alt="cell img" 
       />
-      <div className='cell_navbar'>
-        <img className='ola_logo' src={ola_logo} alt="ola-logo" />
-        <img className='hamburger_logo' src={hamburger} alt="hamburger-logo" />
-      </div>
       <div className='cell_content'>
         <div className='cell_heading'>
           <h1>Charging Ahead</h1>

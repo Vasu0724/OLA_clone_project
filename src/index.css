@@ -1177,3 +1177,378 @@ body {
   width: 18px;
   height: 18px;
 }
+
+
+
+
+
+
+
+
+
+/* MAIN STICKY HEADER */
+.ola_sticky_header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #5f5f5f;
+}
+
+/* STICKY HEADER */
+.ola_sticky_header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #000;
+}
+
+/* TOP NAVBAR */
+.ola_top_navbar {
+  height: 80px;
+  width: 100%;
+  padding: 0 60px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #000;
+}
+
+/* LOGO */
+.ola_nav_logo img {
+  width: 100px;
+  display: block;
+}
+
+/* TOP NAV LINKS */
+.ola_top_nav_links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+/* LINKS */
+.ola_top_nav_links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.ola_top_nav_links a:hover {
+  color: #aaa;
+}
+
+/* HAMBURGER BUTTON */
+.ola_hamburger_btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* HAMBURGER IMAGE */
+.ola_hamburger_btn img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+
+  /* Converts the black hamburger icon to white */
+  filter: brightness(0) invert(1);
+}
+
+/* CLOSE ICON */
+.ola_close_icon {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* MENU CONTAINER */
+.navbar_container {
+  width: 100%;
+  background-color: #000000;
+  padding: 40px 60px 55px;
+  box-sizing: border-box;
+}
+
+/* MENU CONTENT */
+.navbar_content {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+}
+
+/* PRODUCT CARDS SECTION */
+.navbar_product_page {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+
+/* PRODUCT CARD */
+.menu_card {
+  flex: 1;
+  min-width: 0;
+
+  text-decoration: none;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* PRODUCT IMAGE */
+.menu_card img {
+  width: 100%;
+  height: 190px;
+  object-fit: contain;
+}
+
+/* PRODUCT NAME */
+.menu_card span {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* GENERATION TEXT */
+.menu_card .menu_card_a1_gen {
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* TECHNOLOGY SECTION */
+.navbar_link_info_page {
+  width: 230px;
+  flex-shrink: 0;
+  color: white;
+}
+
+/* TECH HEADING */
+.navbar_link_heading_tech h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 25px;
+}
+
+/* TECH LINKS */
+.navbar_link_para_tech {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.navbar_link_para_tech a {
+  color: #aaa;
+  font-size: 17px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navbar_link_para_tech a:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ola_auth_page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background:
+    radial-gradient(circle at 15% 15%, #252525, transparent 40%),
+    linear-gradient(135deg, #080808, #141414, #050505);
+}
+
+/* MAIN CARD */
+.ola_auth_card {
+  width: min(1000px, 100%);
+  min-height: 580px;
+  display: flex;
+  background: #111;
+  border: 1px solid #292929;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+}
+
+/* IMAGE SIDE */
+.ola_auth_image {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ola_auth_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* IMAGE TEXT */
+.ola_auth_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  width: 100%;
+  color: white;
+  background: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.9)
+  );
+}
+
+.ola_auth_overlay h1 {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.ola_auth_overlay p {
+  color: #ddd;
+  font-size: 15px;
+}
+
+/* CONTENT SIDE */
+.ola_auth_content {
+  width: 50%;
+  padding: 55px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/* HEADING */
+.ola_auth_heading {
+  margin-bottom: 30px;
+}
+
+.ola_auth_heading p {
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.ola_auth_heading h2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+/* INPUT FORM */
+.ola_auth_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ola_auth_form input {
+  width: 100%;
+  padding: 15px 5px;
+  border: none;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 15px;
+}
+
+.ola_auth_form input::placeholder {
+  color: #888;
+}
+
+.ola_auth_form input:focus {
+  border-bottom-color: #a6ff4d;
+}
+
+/* PASSWORD */
+.ola_auth_password {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #555;
+}
+
+.ola_auth_password input {
+  border-bottom: none;
+}
+
+.ola_auth_password button {
+  color: #a6ff4d;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* MAIN BUTTON */
+.ola_auth_button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 30px;
+  background: #fff;
+  color: #111;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.ola_auth_button:hover {
+  background: #a6ff4d;
+  transform: translateY(-2px);
+}
+
+/* SWITCH LOGIN/SIGNUP */
+.ola_auth_switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.ola_auth_switch p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.ola_auth_switch button {
+  background: transparent;
+  border: none;
+  color: #a6ff4d;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.ola_auth_footer {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
