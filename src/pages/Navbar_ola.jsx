@@ -40,12 +40,16 @@ function Navbar_ola() {
                 S1 Pro+
               </Link>
 
-              <Link to="/s1-pro" onClick={closeMenu}>
+              <Link to="/s1-x" onClick={closeMenu}>
                 S1 X
               </Link>
 
               <Link to="/cell-technology" onClick={closeMenu}>
                 Cell Tech
+              </Link>
+
+              <Link to="/cell-manufacturing" onClick={closeMenu}>
+                Manufacturing
               </Link>
 
               <Link to="/sign-in" onClick={closeMenu}>
@@ -106,7 +110,7 @@ function Navbar_ola() {
                 </Link>
 
                 <Link
-                  to="/s1-pro"
+                  to="/s1-x"
                   className="menu_card navbar_s1x_menu"
                   onClick={closeMenu}
                 >
@@ -134,7 +138,7 @@ function Navbar_ola() {
                     Cell Tech
                   </Link>
 
-                  <Link to="/cell-technology" onClick={closeMenu}>
+                  <Link to="/cell-manufacturing" onClick={closeMenu}>
                     Manufacturing
                   </Link>
 

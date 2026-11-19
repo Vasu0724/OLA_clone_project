@@ -6,7 +6,8 @@ import Ola_s1_pro_plus from './pages/ola_s1_pro_plus'
 import Navbar_ola from './pages/Navbar_ola'
 import Homepage from './pages/Homepage'
 import Sign_in from './pages/Sign_in'
-
+import OlaS1x from './Pages/OlaS1x'
+import Manufacturing from './Pages/Manufacturing'
 
 function App() {
   return (
@@ -19,7 +20,11 @@ function App() {
         <Route path="/s1-pro-plus" element={<Ola_s1_pro_plus />} />
         <Route path="/cell-technology" element={<Cell_tech />} />
         <Route path='/sign-in' element={<Sign_in/>}/>
+        <Route path='/s1-x' element={<OlaS1x />}/>
+        <Route path='/cell-manufacturing' element={<Manufacturing />}/>
       </Routes>
     </BrowserRouter>
   )
 }
+
+export default App

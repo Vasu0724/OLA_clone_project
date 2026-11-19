@@ -143,19 +143,6 @@ body {
   margin-top: 20px;
 }
 
-.hero3-img img{
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-body{
-  width: 100%;
-  height: 100vh;
-}
-
 .page1 {
   width: 100%;
   height: 100vh;
@@ -451,18 +438,6 @@ body{
   z-index: 1;
 }
 
-.performance-right {
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-}
 
 .cell_container {
   width: 100%;
@@ -1900,7 +1875,7 @@ body {
   display: block;
   margin: 0 auto 0;
 
-
+}
 
 
 /* MAIN NAVBAR */
@@ -2295,6 +2270,7 @@ body {
   width: 100%;
   height: 305px;
   object-fit: cover;
+}
 /* IMAGE TEXT */
 .ola_auth_overlay {
   position: absolute;
@@ -2683,6 +2659,7 @@ body {
 .technology-centre,
 .technology-right {
   margin-top: 40px;
+}
 .ola_auth_form input {
   width: 100%;
   padding: 15px 5px;
