@@ -6,8 +6,8 @@ import Ola_s1_pro_plus from './pages/ola_s1_pro_plus'
 import Navbar_ola from './pages/Navbar_ola'
 import Homepage from './pages/Homepage'
 import Sign_in from './pages/Sign_in'
-import OlaS1x from './Pages/OlaS1x'
-import Manufacturing from './Pages/Manufacturing'
+import OlaS1x from './pages/OlaS1x'
+import Manufacturing from './pages/Manufacturing'
 
 function App() {
   return (
