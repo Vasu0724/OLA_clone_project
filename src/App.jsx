@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Cell_tech from './pages/cell_tech'
+import Cell_tech from './pages/Cell_tech'
 import Ola_s1_pro from './pages/Ola_s1_pro'
 import Ola_s1_pro_plus from './pages/ola_s1_pro_plus'
 import Navbar_ola from './pages/Navbar_ola'
