@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.ola-design-page {
+  overflow-x: hidden;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 0 40px;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.order-btn {
+  background: transparent;
+  border: none;
+  color: #00c853;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* ========== Philosophy Section ========== */
+.philosophy-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 40px 100px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  letter-spacing: -1px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.philosophy-card {
+  background: #f8f9fa;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.philosophy-card:hover {
+  transform: translateY(-6px);
+}
+
+.card-content {
+  padding: 32px 28px 20px;
+}
+
+.card-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.card-image {
+  flex: 1;
+  min-height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 20px 30px;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* ========== Future Technology Carousel ========== */
+.future-tech-section {
+  background: #1a1a1a;
+  color: white;
+  padding: 60px 0 80px;
+}
+
+.carousel-header {
+  max-width: 1400px;
+  margin: 0 auto 40px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.carousel-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.control-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  background: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.control-btn:hover {
+  background: #333;
+  border-color: #888;
+}
+
+.carousel-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.carousel-slide {
+  min-width: 100%;
+  position: relative;
+  height: 480px;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.slide-overlay h3 {
+  font-size: 28px;
+  font-weight: 500;
+  background: rgba(0,0,0,0.4);
+  padding: 10px 28px;
+  border-radius: 30px;
+  backdrop-filter: blur(8px);
+}
+
+/* ========== Designing The Future ========== */
+.designing-future {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 40px;
+}
+
+.section-header {
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-header p {
+  font-size: 18px;
+  color: #555;
+  max-width: 500px;
+}
+
+.gravity-section {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.gravity-image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 420px;
+}
+
+.gravity-content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.gravity-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.small-images img {
+  width: 180px;
+  border-radius: 12px;
+}
+
+/* ========== Join Section ========== */
+.join-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+}
+
+.join-content {
+  margin-bottom: 50px;
+}
+
+.join-content h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.join-content p {
+  font-size: 17px;
+  color: #555;
+  max-width: 600px;
+  margin-bottom: 28px;
+}
+
+.join-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.join-btn:hover {
+  background: #333;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.team-card {
+  border-radius: 16px;
+  overflow: hidden;
+  height: 280px;
+}
+
+.team-card.large {
+  grid-row: span 2;
+  height: auto;
+}
+
+.team-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.team-card:hover img {
+  transform: scale(1.04);
+}
+
+/* ========== Footer ========== */
+.footer {
+  background: #1a1a1a;
+  color: #ccc;
+  padding: 60px 40px 40px;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links h4 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.footer-links a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-contact {
+  text-align: right;
+}
+
+.footer-contact p {
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.social-icons span {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 1024px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .gravity-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .team-card.large {
+    grid-row: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .section-title {
+    font-size: 36px;
+  }
+  
+  .carousel-header h2 {
+    font-size: 28px;
+  }
+  
+  .carousel-slide {
+    height: 320px;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

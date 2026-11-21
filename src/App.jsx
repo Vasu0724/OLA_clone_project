@@ -8,6 +8,11 @@ import Homepage from './pages/Homepage'
 import Sign_in from './pages/Sign_in'
 import OlaS1x from './pages/OlaS1x'
 import Manufacturing from './pages/Manufacturing'
+import InvestorPage from './pages/invester'
+import BlogPage from './pages/blog'
+import AboutPage from './pages/about_us'
+import PartnerPage from './pages/partner'
+import DesignPhilosophy from './pages/DesignPhilosophy'
 
 function App() {
   return (
@@ -22,6 +27,11 @@ function App() {
         <Route path='/sign-in' element={<Sign_in/>}/>
         <Route path='/s1-x' element={<OlaS1x />}/>
         <Route path='/cell-manufacturing' element={<Manufacturing />}/>
+        <Route path='/cell-design' element={<DesignPhilosophy />}/>
+        <Route path='/invester' element={<InvestorPage />}/>
+        <Route path='/blog' element={<BlogPage />}/>
+        <Route path='/about-us' element={<AboutPage />}/>
+        <Route path='/partner' element={<PartnerPage />}/>
       </Routes>
     </BrowserRouter>
   )

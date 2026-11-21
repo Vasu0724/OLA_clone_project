@@ -1,0 +1,685 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  color: #1a1a1a;
+  background: #fff;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.investor-page {
+  overflow-x: hidden;
+}
+
+.link-green {
+  color: #00a651;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.link-green:hover {
+  text-decoration: underline;
+}
+
+/* ========== IR HERO ========== */
+.ir-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 40px 80px;
+  align-items: start;
+}
+
+.eyebrow {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.ir-hero-left h1 {
+  font-size: clamp(36px, 5vw, 52px);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 32px;
+  letter-spacing: -1px;
+}
+
+.btn-dark {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.ir-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.ir-link-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 15px;
+  font-weight: 500;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.ir-link-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  border-color: #ccc;
+}
+
+.ir-link-card .icon {
+  font-size: 18px;
+}
+
+.ir-link-card .arrow {
+  margin-left: auto;
+  color: #888;
+}
+
+/* ========== MISSION ========== */
+.mission {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+  text-align: center;
+}
+
+.mission p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* ========== ALL ELECTRIC ========== */
+.all-electric {
+  background: #f4f6f8;
+  padding: 80px 40px 100px;
+}
+
+.all-electric h2 {
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.product-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 20px;
+}
+
+.product-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.product-card.image-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card.text-card {
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-card.text-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.product-card.text-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* ========== INNOVATION ========== */
+.innovation {
+  padding: 100px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.innovation h2 {
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.innovation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.innov-card {
+  border-radius: 16px;
+  padding: 32px 28px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.innov-card.design { background: #e8f4fc; }
+.innov-card.performance { background: #f3eef8; }
+.innov-card.technology { background: #eef8ee; }
+
+.innov-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.innov-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  flex: 1;
+}
+
+.innov-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 20px;
+  display: block;
+}
+
+/* ========== EV HUB ========== */
+.ev-hub {
+  padding: 80px 40px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ev-hub h2 {
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.ev-hub .subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.hub-image {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.hub-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
+.illustration-note {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  font-size: 11px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.factory-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.factory-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.factory-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.factory-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* ========== D2C ========== */
+.d2c {
+  padding: 80px 40px 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d2c h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.d2c .subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.d2c-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.d2c-images img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.network-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.network-item h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.network-item p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.service-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ========== METRICS ========== */
+.metrics {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+.metrics h2 {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  margin-bottom: 50px;
+  line-height: 1.25;
+}
+
+.metrics .highlight {
+  color: #a8e6a1;
+}
+
+.metrics-grid {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.metric-card {
+  background: #2a2a2a;
+  border-radius: 14px;
+  padding: 32px 20px;
+}
+
+.metric-card .value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #a8e6a1;
+  margin-bottom: 8px;
+}
+
+.metric-card .label {
+  font-size: 12px;
+  color: #aaa;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.metrics-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.metrics-footer .note {
+  font-size: 12px;
+  color: #777;
+  text-align: right;
+}
+
+/* ========== BLOGS ========== */
+.blogs {
+  background: #f4f6f8;
+  padding: 80px 40px;
+}
+
+.blogs-header {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogs-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.carousel-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-btns button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btns button:hover {
+  background: #f0f0f0;
+}
+
+.blogs-grid {
+  max-width: 1100px;
+  margin: 0 auto 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-body {
+  padding: 18px 20px;
+}
+
+.blog-body .year {
+  font-size: 13px;
+  color: #888;
+}
+
+.blog-body h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+.blogs .link-green {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* ========== NEWSROOM ========== */
+.newsroom {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 40px 100px;
+}
+
+.newsroom h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.news-item {
+  display: flex;
+  gap: 16px;
+  padding: 24px 0;
+  border-bottom: 1px solid #eee;
+  align-items: flex-start;
+}
+
+.news-logo {
+  min-width: 70px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.news-text .year {
+  font-size: 13px;
+  color: #888;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.news-text p {
+  font-size: 15px;
+  line-height: 1.45;
+  color: #222;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background: #1a1a1a;
+  color: #ccc;
+  padding: 50px 40px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-logo {
+  font-size: 26px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-links h4 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .ir-hero {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .innovation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .factory-cards,
+  .d2c-images,
+  .network-grid,
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .blogs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .ir-hero,
+  .mission,
+  .all-electric,
+  .innovation,
+  .ev-hub,
+  .d2c,
+  .metrics,
+  .blogs,
+  .newsroom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+}

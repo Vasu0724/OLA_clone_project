@@ -90,9 +90,12 @@ function Navbar_ola_end() {
         <div className="navbar_end_company">
           <h2>Explore</h2>
 
-          <Link to="/">Home</Link>
+          <Link to="/partner">Partner</Link>
           <Link to="/sign-in">Sign In</Link>
-          <Link to="/s1-pro-plus">S1 Pro+</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/about-us">About Us</Link>
+          <Link to="/invester">Investor</Link>
+          <Link to="/cell-design">Design</Link>
         </div>
 
       </div>
